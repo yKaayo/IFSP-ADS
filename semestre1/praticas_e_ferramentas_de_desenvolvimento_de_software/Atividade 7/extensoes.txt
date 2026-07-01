@@ -1,0 +1,18 @@
+- Auto Rename Tag
+- Error Lens
+- Live Server
+- ESLint
+- Path Intellisense
+- Git Graph
+- Prettier - Code formatter
+- Prettier ESLint
+- Pretty TypeScript Errors
+- Simple React Snippets
+- SVG
+- Svg Preview
+- Console Ninja
+- Tailwind CSS IntelliSense
+- WebP Converter
+- JavaScript (ES6) code snippets
+- JavaScript and TypeScript Nightly
+- ES7+ React/Redux/React-Native snippets
