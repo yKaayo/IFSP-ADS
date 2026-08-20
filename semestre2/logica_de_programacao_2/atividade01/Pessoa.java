@@ -7,9 +7,7 @@
 
 package br.ifsp.edu.br.exercicio;
 
-import java.util.Objects;
-
-public class Program {
+public class Pessoa {
   private String nome;
   private String sobrenome;
   private int idade;
@@ -47,13 +45,16 @@ public class Program {
     if (this == obj) {
       return true;
     }
+
     if (obj == null || getClass() != obj.getClass()) {
       return false;
     }
+
     Pessoa pessoa = (Pessoa) obj;
-    return Double.compare(pessoa.preco, preco) == 0
-        && quantidade == pessoa.quantidade
-        && Objects.equals(nome, pessoa.nome);
+
+    return idade == pessoa.idade
+        && nome.equals(pessoa.nome)
+        && sobrenome.equals(pessoa.sobrenome);
   }
 
   public void aniversario() {
